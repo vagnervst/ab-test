@@ -37,13 +37,13 @@ const Outline = styled(Base)`
   }
 `
 
-const Button = ({ children, variant }) => {
+const Button = ({ children, variant, ...props }) => {
   const Variant = variant === 'solid'
     ? Solid
     : Outline
 
   return (
-    <Variant>{children}</Variant>
+    <Variant {...props}>{children}</Variant>
   )
 }
 

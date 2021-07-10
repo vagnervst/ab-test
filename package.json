@@ -1,5 +1,6 @@
 {
   "name": "ab-experiments",
+  "description": "Simple CRA app to test Google Optimize A/B Test integration",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
